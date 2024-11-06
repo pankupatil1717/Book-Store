@@ -10,25 +10,27 @@
   <link rel="stylesheet" href="./assets/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <title>EC</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<title>EC</title>
 
 </head>
 
 <body>
   <!-- top header  -->
   <div
-    class="container-fluid atj-furniture-topheader-a001 d-flex align-items-center justify-content-between bg-danger text-light"
+    class="container-fluid atj-furniture-topheader-a001 d-flex align-items-center justify-content-between bg-danger text-light "
     id="topheader">
-    <div class="col-5 text-center">
+    <div class="col-5 text-center ">
       <p class="m-auto">SHOP WAY DAY FOR UP TO 80% OFF -></p>
     </div>
-    <div class="col-7 text-center">
+    <div class="col-7 text-center ">
       <ul class="m-0">
         <a>Our App |</a>
         <a>Financing |</a>
@@ -38,105 +40,117 @@
     </div>
   </div>
 
+
+
   <!-- header  -->
-  <nav class="navbar navbar-expand-md atj-furniture-header-a001 navbar-light bg-body-tertiary">
-    <!-- Container wrapper -->
-    <div class="container d-flex justify-content-center align-items-center">
-      <!-- Navbar brand -->
-      <a href="./" class="logo col-4 d-flex align-items-center text-decoration-none">
-        <h1 class="sitename mt-1 text-primary">EC.Book.</h1>
-      </a>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-md atj-furniture-header-a001 navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container d-flex align-items-center">
+    <!-- Navbar brand -->
+    <a href="./" class="logo col-4 d-flex align-items-center text-decoration-none">
+      <h1 class="sitename mt-1 text-primary">Ec Book</h1>
+    </a>
 
+    <!-- Toggle button aligned to the right -->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="container-fluid col-5">
+        <form class="d-flex">
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input type="search" class="form-control rounded p-2" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        </form>
+      </div>
 
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <div class="container-fluid col-5">
-          <form class="d-flex">
-            <span class="input-group-text border-0" id="search-addon">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </span>
-            <input type="search" class="form-control rounded p-2" placeholder="Search" aria-label="Search"
-              aria-describedby="search-addon" />
-          </form>
-        </div>
-        <div class="d-flex justify-content-end align-items-center">
-          <!-- Login/signUp  -->
-          <div class="dropdown mx-2" id="icon">
-            <div data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="dropdown-toggle" type="button"
-              id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-              <span>SignUp</span>
-              <i class="fa-regular fa-user fa-xl"></i>
-            </div>
-            <section class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <div class="d-block m-2" style="width: 235px; position: relative;">
-                <h3>Welcome</h3>
-                <small>Register To Get Exclusive Benefits!</small><br>
-                <button href="./" class="bg-danger border-0 p-2 text-white">
-                  <b>Login/SignUp</b>
-                </button>
-              </div>
-            </section>
+      <div class="d-flex justify-content-end align-items-center">
+        <!-- Login/SignUp -->
+        <div class="dropdown mx-2" id="icon">
+          <div  type="button" aria-expanded="false">
+            <span>SignUp</span>
+            <i class="fa-regular fa-user fa-xl"></i>
           </div>
-
-          <button class="input-group-text border-0 mx-2" id="search-addon">
-            <i class="fa-regular fa-heart fa-xl"></i>
-          </button>
-          <button class="input-group-text border-0 mx-2" id="search-addon">
-            <i class="fa-solid fa-cart-shopping fa-xl"></i>
-          </button>
+          <section class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="d-block m-2" style="width: 235px; position: relative;">
+              <h3>Welcome</h3>
+              <small>Register To Get Exclusive Benefits!</small><br>
+              <button href="./" class="bg-danger border-0 p-2 text-white">
+                <b>Login/SignUp</b>
+              </button>
+            </div>
+          </section>
         </div>
+
+        <!-- Heart Icon -->
+        <button class="input-group-text border-0 mx-2" id="search-addon">
+          <i class="fa-regular fa-heart fa-xl"></i>
+        </button>
+
+        <!-- Cart Icon -->
+        <button class="input-group-text border-0 mx-2" id="search-addon">
+          <i class="fa-solid fa-cart-shopping fa-xl"></i>
+        </button>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
+<!-- /Navbar -->
+
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md atj-furniture-navbar-a001 d-flex justify-content-center align-content-center">
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-md atj-furniture-navbar-a001">
     <!-- Container wrapper -->
-    <div class="container">
-
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+    <div class="container d-flex align-items-center">
+      
+      
+      
+      <!-- Toggle button aligned to the right on smaller screens -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarToggle">
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto gap-4 d-flex align-items-center">
+      <!-- Collapsible wrapper for navbar links, centered -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+        <!-- Navbar links -->
+        <ul class="navbar-nav gap-4 d-flex align-items-center">
           <li class="nav-item">
             <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Books</a>
+            <a class="nav-link" href="#">Books</a>
           </li>
-          <li class="dropdown">
-            <span data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init class="dropdown-toggle" type="button"
-              id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categories
-            </span>
+            </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li><a class="dropdown-item" href="#">eBooks</a></li>
               <li><a class="dropdown-item" href="#">Audiobooks</a></li>
               <li><a class="dropdown-item" href="#">Teens & YA</a></li>
               <li><a class="dropdown-item" href="#">Fiction</a></li>
-              <li><a class="dropdown-item" href="#">Nonficition</a></li>
+              <li><a class="dropdown-item" href="#">Nonfiction</a></li>
               <li><a class="dropdown-item" href="#">Kids</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">About Us</a>
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
+
     </div>
   </nav>
   <!-- /Navbar -->
+
 
 
   <!-- Hero Section -->
@@ -217,77 +231,77 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
-
+  <!-- Categories  -->
   <!-- Categories  -->
   <div class="text-center text-danger p-2  container mt-3">
     <h2>Categories</h2>
   </div>
 
-  <div class="container-fluid d-flex justify-content-center">
-    <div class="card m-2" style="width: 300px">
-      <img class="card-img-top" src="./book/4.2.jpg" height="300px" alt="Card image" />
-      <div class="card-img-overlay text-center">
+  <div class="container-fluid d-flex justify-content-center  ">
+    <div class=" container-fluid row">
+      <div class="card m-2 col-md" style="width: 300px">
+        <img class="card-img-top " src="./book/4.2.jpg" height="300px" alt="Card image" />
+        <div class="card-footer bg-transparent border-success">
+          <div class="text-center">
+            <h4><Strong>eBooks</Strong></h4>
+          </div>
+          <button class="btn btn-outline-success w-100 " type="button">QUICK ADD</button>
+        </div>
+      </div>
+      <div class="card m-2  " style="width: 300px ">
+        <img class="card-img-top" src="./book/audiobook/30876_Flyout_OMP_Audiobooks_10_29_24.jpg" height="300px"
+          alt="Card image" />
+        <div class="card-img-overlay text-center">
 
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <div class="text-center">
-          <h4><Strong>eBooks</Strong></h4>
         </div>
-        <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
+        <div class="card-footer bg-transparent border-success">
+          <div class="text-center">
+            <h4><Strong>Audiobooks</Strong></h4>
+          </div>
+          <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
+        </div>
       </div>
-    </div>
-    <div class="card m-2" style="width: 300px">
-      <img class="card-img-top" src="./book/audiobook/30876_Flyout_OMP_Audiobooks_10_29_24.jpg" height="300px"
-        alt="Card image" />
-      <div class="card-img-overlay text-center">
+      <div class="card m-2 col-md" style="width: 300px ">
+        <img class="card-img-top" src="./book/4.1.jpg" height="300px" alt="Card image" />
+        <div class="card-img-overlay text-center">
 
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <div class="text-center">
-          <h4><Strong>Audiobooks</Strong></h4>
         </div>
-        <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
+        <div class="card-footer bg-transparent border-success">
+          <div class="text-center">
+            <h4><Strong>Teens & YA</Strong></h4>
+          </div>
+          <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
+        </div>
+      </div>
+      <div class="card m-2 " style="width: 300px ">
+        <img class="card-img-top" src="./book/3.jpg" height="300px" alt="Card image" />
+        <div class="card-img-overlay text-center">
+          <!-- <h4 class="card-title">Books</h4> -->
+          <!-- <p class="card-text">World Bestest Authors Books</p> -->
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <div class="text-center">
+            <h4><Strong>Ficition</Strong></h4>
+          </div>
+          <button class="btn btn-outline-success w-100 " type="button">QUICK ADD</button>
+        </div>
+      </div>
+      <div class="card m-2 col-md" style="width: 300px ">
+        <img class="card-img-top" src="./book/kids/31084_Flyout_BestBooksOf2024_Kids_10_18_24 copy.jpg" height="300px"
+          alt="Card image" />
+        <div class="card-img-overlay text-center">
+          <!-- <h4 class="card-title">Cosmatics</h4> -->
+          <!-- <p class="card-text">World Bestest Cosmatics</p> -->
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <div class="text-center">
+            <h4><Strong>Kids</Strong></h4>
+          </div>
+          <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
+        </div>
       </div>
     </div>
-    <div class="card m-2" style="width: 300px">
-      <img class="card-img-top" src="./book/4.1.jpg" height="300px" alt="Card image" />
-      <div class="card-img-overlay text-center">
 
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <div class="text-center">
-          <h4><Strong>Teens & YA</Strong></h4>
-        </div>
-        <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
-      </div>
-    </div>
-    <div class="card m-2" style="width: 300px">
-      <img class="card-img-top" src="./book/3.jpg" height="300px" alt="Card image" />
-      <div class="card-img-overlay text-center">
-        <!-- <h4 class="card-title">Books</h4> -->
-        <!-- <p class="card-text">World Bestest Authors Books</p> -->
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <div class="text-center">
-          <h4><Strong>Ficition</Strong></h4>
-        </div>
-        <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
-      </div>
-    </div>
-    <div class="card m-2" style="width: 300px">
-      <img class="card-img-top" src="./book/kids/31084_Flyout_BestBooksOf2024_Kids_10_18_24 copy.jpg" height="300px"
-        alt="Card image" />
-      <div class="card-img-overlay text-center">
-        <!-- <h4 class="card-title">Cosmatics</h4> -->
-        <!-- <p class="card-text">World Bestest Cosmatics</p> -->
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <div class="text-center">
-          <h4><Strong>Kids</Strong></h4>
-        </div>
-        <button class="btn btn-outline-success w-100" type="button">QUICK ADD</button>
-      </div>
-    </div>
   </div>
 
 
@@ -313,8 +327,8 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper row container-fluid d-flex  justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card  border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid " style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 1000 /-
@@ -322,8 +336,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 500 /-
@@ -331,8 +345,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/3.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/3.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 300/-
@@ -340,8 +354,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/4.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/4.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -349,8 +363,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/5.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/5.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -358,8 +372,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/6.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/6.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -367,21 +381,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row  justify-content-around">
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/8.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/8.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -389,8 +395,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -398,8 +404,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/10.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/10.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -407,8 +413,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/11.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/11.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -416,8 +422,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/12.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -425,8 +431,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/13.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -434,21 +440,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/13.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/14.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/14.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -456,8 +454,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -465,8 +463,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/16.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/16.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -474,8 +472,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/17.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/17.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -483,8 +481,8 @@
               </h5>
             </div>
           </div>
-          <div class="card " style="width: 10rem;">
-            <img src="./book/Best Seller/18.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/18.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -492,8 +490,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/19.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/19.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -519,14 +517,15 @@
 
   <!-- NEW ARRIVAL  Slider  -->
   <div class="text-center text-danger p-2  container mt-3">
-    <h2> New Arrival Sellers</h2>
+    <h2>New Arrivals</h2>
   </div>
+
   <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper row container-fluid d-flex  justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card  border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid " style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 1000 /-
@@ -534,8 +533,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 500 /-
@@ -543,8 +542,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/3.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/3.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 300/-
@@ -552,8 +551,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/4.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/4.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -561,8 +560,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/5.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/5.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -570,8 +569,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/6.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/6.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -579,21 +578,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row  justify-content-around">
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/8.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/8.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -601,8 +592,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -610,8 +601,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/10.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/10.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -619,8 +610,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/11.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/11.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -628,8 +619,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/12.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -637,8 +628,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/13.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -646,21 +637,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/13.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/14.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/14.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -668,8 +651,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -677,8 +660,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/16.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/16.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -686,8 +669,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/17.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/17.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -695,8 +678,8 @@
               </h5>
             </div>
           </div>
-          <div class="card " style="width: 10rem;">
-            <img src="./book/Best Seller/18.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/18.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -704,8 +687,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/19.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/19.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -734,12 +717,14 @@
   <div class="text-center text-danger p-2  container mt-3">
     <h2>International Best Seller</h2>
   </div>
+
+
   <div id="carouselExampleControls3" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper row container-fluid d-flex  justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card  border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid " style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 1000 /-
@@ -747,8 +732,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 500 /-
@@ -756,8 +741,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/3.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/3.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 300/-
@@ -765,8 +750,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/4.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/4.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -774,8 +759,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/5.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/5.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -783,8 +768,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/6.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/6.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -792,21 +777,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row  justify-content-around">
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/8.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/8.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -814,8 +791,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -823,8 +800,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/10.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/10.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -832,8 +809,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/11.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/11.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -841,8 +818,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/12.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -850,8 +827,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/13.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -859,21 +836,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/13.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/14.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/14.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -881,8 +850,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -890,8 +859,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/16.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/16.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -899,8 +868,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/17.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/17.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -908,8 +877,8 @@
               </h5>
             </div>
           </div>
-          <div class="card " style="width: 10rem;">
-            <img src="./book/Best Seller/18.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/18.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -917,8 +886,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/19.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/19.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -954,14 +923,15 @@
 
   <!-- AWARD WINNER SLIDER -->
   <div class="text-center text-danger p-2  container mt-3">
-    <h2>Award Winner </h2>
+    <h2>Award Winner</h2>
   </div>
+
   <div id="carouselExampleControls4" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper row container-fluid d-flex  justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card  border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid " style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 1000 /-
@@ -969,8 +939,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 500 /-
@@ -978,8 +948,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/3.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/3.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 300/-
@@ -987,8 +957,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/4.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/4.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -996,8 +966,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/5.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/5.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1005,8 +975,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/6.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/6.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1014,21 +984,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row  justify-content-around">
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/8.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/8.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1036,8 +998,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1045,8 +1007,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/10.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/10.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1054,8 +1016,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/11.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/11.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1063,8 +1025,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/12.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1072,8 +1034,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/13.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1081,21 +1043,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/13.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/14.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/14.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1103,8 +1057,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1112,8 +1066,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/16.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/16.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1121,8 +1075,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/17.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/17.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1130,8 +1084,8 @@
               </h5>
             </div>
           </div>
-          <div class="card " style="width: 10rem;">
-            <img src="./book/Best Seller/18.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/18.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1139,8 +1093,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/19.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/19.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1165,14 +1119,15 @@
   </div>
   <!-- BOX SELLER SLIDER start-->
   <div class="text-center text-danger p-2  container mt-3">
-    <h2>Box Sellers</h2>
+    <h2>Best Sellers</h2>
   </div>
+
   <div id="carouselExampleControls5" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card-wrapper row container-fluid d-flex  justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card  border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/1.webp" class="card-img-top img-fluid " style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 1000 /-
@@ -1180,8 +1135,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/2.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 500 /-
@@ -1189,8 +1144,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/3.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/3.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 300/-
@@ -1198,8 +1153,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/4.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/4.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1207,8 +1162,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/5.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/5.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1216,8 +1171,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/6.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/6.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1225,21 +1180,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row  justify-content-around">
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/8.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/8.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1247,8 +1194,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/9.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1256,8 +1203,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/10.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/10.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1265,8 +1212,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/11.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/11.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1274,8 +1221,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/12.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1283,8 +1230,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/12.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/13.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1292,21 +1239,13 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/13.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <h5 class="card-title text-success">&#8377 10,000 /-
-                <p class="text-decoration-line-through text-danger">&#8377 15,000</p>
-              </h5>
-            </div>
-          </div>
+
         </div>
       </div>
       <div class="carousel-item">
         <div class="card-wrapper container-fluid d-flex row justify-content-around">
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/14.webp" class="card-img-top" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/14.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1314,8 +1253,8 @@
               </h5>
             </div>
           </div>
-          <div class="card  " style="width: 10rem;">
-            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" alt="...">
+          <div class="card border-0 " style="width: 15rem;">
+            <img src="./book/Best Seller/15.webp" class="card-img-top img-fluid" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1323,8 +1262,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/16.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/16.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1332,8 +1271,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/17.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/17.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1341,8 +1280,8 @@
               </h5>
             </div>
           </div>
-          <div class="card " style="width: 10rem;">
-            <img src="./book/Best Seller/18.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/18.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1350,8 +1289,8 @@
               </h5>
             </div>
           </div>
-          <div class="card" style="width: 10rem;">
-            <img src="./book/Best Seller/19.webp" class="card-img-top" alt="...">
+          <div class="card border-0" style="width: 15rem;">
+            <img src="./book/Best Seller/19.webp" class="card-img-top" style="height:300px " alt="...">
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet.</p>
               <h5 class="card-title text-success">&#8377 10,000 /-
@@ -1374,7 +1313,6 @@
       </button>
     </div>
   </div>
-
   <!-- Authors  -->
   <div class="container text-center mt-3 text-danger ">
     <h2>Authors</h2>
@@ -1805,6 +1743,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS and dependencies (includes Popper) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 
 </html>
